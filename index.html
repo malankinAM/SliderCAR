@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SlideCar</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+<div class="container">
+  <div class="menu">
+    <div class="logo">
+      <img src="./img/4-1.png" alt="">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Our channel</a></li>
+      </ul>
+    </nav>
+
+    <div class="wrap">
+      <h1>Jun AT<span>The</span> <br>FRONT</h1>
+      <div class="img">
+        <h1> love Frontend</h1>
+        <img src="./img/3.png" alt="" class="headimg" onclick="imgSlider('./img/slide/3.png')">
+      </div>
+    </div>
+
+   
+  </div>
+
+  <div class="slidebar">
+    <ul>
+    <li class="btn" value="01"><img src="./img/1.png" alt="" onclick="imgSlider('./img/slide/1.png')"></li>
+    <li class="btn" value="02"><img src="./img/2.png" alt="" onclick="imgSlider('./img/slide/2.png')"></li>
+    <li class="btn" value="03"><img src="./img/3.png" alt="" onclick="imgSlider('./img/slide/3.png')"></li>
+    </ul>
+    <div class="line">
+      <span></span>
+      <div class="number">03</div>
+      <span></span>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
